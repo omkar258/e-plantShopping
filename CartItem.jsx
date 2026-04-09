@@ -1,1 +1,0 @@
-import React,{useState} from "react";export default function CartItem(){const[c,setC]=useState([{name:"Plant",price:10,qty:1}]);const total=c.reduce((s,i)=>s+i.price*i.qty,0);return(<div><h2>Cart</h2><p>Total:{total}</p><button onClick={()=>alert("Coming Soon")}>Checkout</button></div>)}
