@@ -1,0 +1,1 @@
+import React,{useState} from "react";export default function ProductList(){const[cart,setCart]=useState(0);return(<div><h2>Plants (Cart:{cart})</h2><button onClick={()=>setCart(cart+1)}>Add to Cart</button></div>)}
